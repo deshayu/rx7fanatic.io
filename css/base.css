@@ -40,12 +40,16 @@ body{
     transition: .5s color;
     transition-timing-function: ease;
 }
+
+.nav a:active{
+    color: red;
+}
+
 #gens img{
-	width:92%;
-	display:block;
-	margin:auto;
+	width: 85%;
+	display: block;
+	margin: auto;
 	transition: .4s;
-	z-index: 1;
 }
 #gens img:hover{
 	transform: scale(1.025);
