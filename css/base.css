@@ -59,7 +59,7 @@ body{
 
 #bannerheader{
     width: 100%;
-    height: 150px;
+    height: 160px;
     top: 0px;
     z-index: 1;
     background: purple url("../Images/Banner.png") no-repeat center;
@@ -67,7 +67,7 @@ body{
 }
 
 .banner img{
-    margin-top: 55px;
+    margin-top: 60px;
     padding-left: 30px;
     width: auto;
     height: auto;
@@ -95,9 +95,11 @@ body{
     display: block;
 }
 
-#contactme img{
+#contactme i{
     float: left;
     margin-right: 10px;
+	margin-top: -2px;
+	font-size: 30px;
 }
 #contactme p{
     overflow: auto;
@@ -108,6 +110,32 @@ body{
 #run a{
 	text-decoration: none;
     color: #000000;
+}
+.formcont{
+	padding-left: 40px;
+}
+#email{
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	height: 25px;
+}
+
+#issue{
+	width: 96%;
+	height: 200px;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+#submit{
+	background-color: #1e010f;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 10px 2px;
+	cursor: pointer;
+
 }
 
 footer{
